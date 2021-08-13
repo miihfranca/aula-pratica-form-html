@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title> MANUTENÇÃO DO ORGÃO COLEGIADO</title>
+    </head>
+    <body>
+       <CEnter><fieldset id="Full" style="width: 80%;">
+            <p><strong> Manutenção do Orgão Colegiado</strong></p>
+        <center>
+            <table border="1">
+                <tr>
+                    <th bgcolor="#4169E1">Unidade</th>
+                    <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+                </tr>
+                <tr>
+                    <th bgcolor="#4169E1">Tipo Colegiado</th>
+                    <td>CONGREGAÇÃO</td>
+                </tr>
+            </table>
+        </center>
+            <br><br>
+            <fieldset id="Form">
+                <h1 style="background:#4169E1";>Órgão Colegiado</h1>
+                <form>
+                    <label for="Nome">Nome</label>
+                    <input style="margin-left: 120px; width: 455px;" type="text" id="Nome" name="Nome" value="CONGREGAÇÃO DA FACULDADE DE ILHA SOLTEIRA"/>
+                    <br><br>
+                    <label for="Sigla">Sigla</label>
+                    <input style= "margin-left:129px" type="text" id="Sigla" name="Sigla" value="CFIS"/>
+                    <label style="margin-left: 200px;">Status</label>
+                    <select style="margin-left: 60PX;">
+                        <option value="ATIVADO">ATIVADO</option>
+                        <option value="DESATIVADO">DESATIVADO</option>
+                    </select>
+                    <br>
+                    <label for="Data">Data de Ativação</label>
+                    <input style="margin-left: 47px; width: 10%;" type="text" id="Data" name="Data" value="15/10/2000" maxlength="10"/>
+                    <label style="margin-left: 278px;"><p style="display: inline-block;">Data <br> Desativação</p></label>
+                    <input style="width: 10%; margin-left: 25px;" type="number" id="DataDesativacao" name="DataDesativacao"/>
+                    <br>
+                    <label for="Origem">Órgão de Origem</label>
+                    <input style="margin-left: 45px; width: 400px;" type="text" id="Origem" name="Origem"/>
+                    <input type="button" id="Busca1" value="Buscar"/>
+                    <br><BR>
+                    <label for="Superior">Órgão Superior</label>
+                    <input style="margin-left: 57px; width: 401px;" type="text" id="Superior" name="Superior"/>
+                    <input type="button" id="Busca2" value="Buscar"/>
+                    <br> <BR>
+                    <label for="Documents">Documentação</label>
+                    <textarea style="margin-left: 59px;" id="Documents" name="Documents" rows="5" cols="58" placeholder="Órgão criado com o objetivo de aprovar normas da unidade."></textarea>
+                    <br>
+                    <input style="margin-left: 200px;" type="submit" id="Salvar" value="Salvar"/>
+                    <input style="margin-left: 300px;" type="submit" id="Apagar" value="Excluir"/>
+                </form>
+            </fieldset> 
+        </CEnter>
+        </fieldset>
+    </body>
+</html>
